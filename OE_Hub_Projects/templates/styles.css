@@ -1,0 +1,148 @@
+html,body,h2,h3,h4,h5,h6 {font-family: "Open Sans", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30pt;
+    color: black;
+    text-align: left;
+}
+
+category {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12pt;
+    color: rgb(88, 88, 88);
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  position: relative;
+  background-color: #d81e05;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12pt;
+  
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #041daa;
+  color: white;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+/* Change the color of links on hover */
+.topnav-centered a:hover {
+  background-color: #d81e05;
+  color: black;
+}
+
+.text-photo {
+  margin-left: 25px;
+  margin-right: 25px;
+  height: auto;
+}
+
+.description {
+  float: left;
+  width: 800px;
+  height: auto;
+}
+
+.image-big {
+  float: left;
+  height: 250px;
+  width: 350px;
+  margin-right: 20px;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  border: 1px solid;
+  text-align: center;
+  align-content: center;
+}
+
+.image-small {
+  border: 1px solid;
+  height: 70px;
+  width: 85px;
+  text-align: center;
+  align-content: center;
+}
+
+.container-stacked {
+  float: inline-block;
+  margin-top: 20px;
+}
+
+.container-pictures {
+    position: sticky;
+    float: inline-block;
+    margin-left: 700px;
+    margin-top: 5px;
+    align-content: center;
+}
+
+.img-container {
+    float: left;
+    width: 25%; /* three containers (use 25% for four, and 50% for two, etc) */
+    padding: 5px; /* if you want space between the images */
+}
+
+.info-page {
+  float:inline;
+  margin-left: 250px;
+  margin-right: 250px;
+  height: auto;
+}
+
+.section {
+  height: auto;
+}
+
+.section-header {
+  width: 100%; 
+  background-color:#d81e05; 
+  padding: 5pt; 
+  border-style: ridge;
+  font-weight: bold; 
+  color: white; 
+  font-size: 18pt;
+  overflow: auto;
+}
