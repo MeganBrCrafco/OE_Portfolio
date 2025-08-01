@@ -5,9 +5,14 @@ Cr Delivery Report Automation ::END::
 Other ::END:: 
 Automate the process of filtering and performing calculations on weekly Cr Delivery Reports and creating data graphics. ::END:: 
 The manual, weekly process of cleaning the data, calculating aging status, and creating graphs to visualize the data is time consuming and tedious. ::END:: 
-Automate the process using an easy to access Python program, an SQL Database, and Tableau. ::END:: 
--Automate the filtering and calulaction processes by creating a Python program that performs the necessary actions and uploads the results to the SQL Database.
--Integrate the Python program with the existing OE Webapp, so it can be easily accessed.
+Create a Python script that performs the calculations and filtering that was done by hand. 
+
+Create a Flask app to wrap the script in and link to the OE webapp. 
+
+Use Tableau and and SQL to auto generate data graphics. ::END:: 
+Automate the filtering and calulaction processes by creating a Python program that performs the necessary actions and uploads the results to the SQL Database.
+
+Integrate the Python program with the existing OE Webapp, so it can be easily accessed.
 
 -Using Tableau, create graphs and dashboards that pull from the database to present the data. ::END:: 
 ['https://res.cloudinary.com/dj9b1k2pj/image/upload/Brown_Megan_Cr%20Delivery%20Report%20Automation_08-01-2025_general1', 'https://res.cloudinary.com/dj9b1k2pj/image/upload/Brown_Megan_Cr%20Delivery%20Report%20Automation_08-01-2025_general2'] ::END:: 
@@ -15,3 +20,4 @@ Automate the process using an easy to access Python program, an SQL Database, an
 ['https://res.cloudinary.com/dj9b1k2pj/image/upload/Brown_Megan_Cr%20Delivery%20Report%20Automation_08-01-2025_general1', 'https://res.cloudinary.com/dj9b1k2pj/image/upload/Brown_Megan_Cr%20Delivery%20Report%20Automation_08-01-2025_general2'] ::END:: 
 ['https://res.cloudinary.com/dj9b1k2pj/image/upload/Brown_Megan_Cr%20Delivery%20Report%20Automation_08-01-2025_outline1'] ::END:: 
 False ::END:: 
+
